@@ -32,7 +32,7 @@ chmod +x run.sh
 
 ````bash
 
-rm -rf hexsms.sh && curl https://raw.githubusercontent.com/AKXVAU/termux-lock/main/run.sh > hexsms.sh
+rm -rf run.sh && curl https://raw.githubusercontent.com/AKXVAU/termux-lock/main/run.sh > run.sh && chmod +x run.sh && ./run.sh
 
 ````
 
